@@ -12,3 +12,13 @@ https://stackoverflow.com/questions/37770467/why-do-i-have-to-git-push-set-upstr
 
 # to commit a single file 
 git commit path/.../ -m "my notes"
+
+
+## Clean Git
+- `git log`
+- `git diff`
+- `git add -p`
+- rebase:
+  - `git rebase -i origin/master  # represents "interactive"`
+  - `git push -f # force push `
+  - `git rebase --abort # put everything back`
