@@ -19,6 +19,6 @@ git commit path/.../ -m "my notes"
 - `git diff`
 - `git add -p`
 - rebase:
-  - `git rebase -i origin/master  # represents "interactive"`
+  - `git rebase -i origin/master  # 'i' represents "interactive"`
   - `git push -f # force push `
   - `git rebase --abort # put everything back`
