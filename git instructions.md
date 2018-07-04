@@ -21,3 +21,7 @@ git commit path/.../ -m "my notes"
   - `git rebase -i origin/master  # 'i' represents "interactive"`
   - `git push -f # force push `
   - `git rebase --abort # put everything back`
+  
+  
+## clone only one branch
+`git clone -b <branch> <remote_repo>`
