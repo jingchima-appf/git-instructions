@@ -25,3 +25,9 @@ git commit path/.../ -m "my notes"
   
 ## clone only one branch
 `git clone -b <branch> <remote_repo>`
+
+## change parent branch
+for current branch
+git rebase --onto <new-parent> <old-parent>
+
+see: https://stackoverflow.com/questions/3810348/setting-git-parent-pointer-to-a-different-parent
