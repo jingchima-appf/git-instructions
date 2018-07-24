@@ -1,0 +1,6 @@
+edit bash file
+
+```
+vim ~/.bashrc
+source .bashrc 
+```
