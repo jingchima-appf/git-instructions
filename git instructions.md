@@ -36,6 +36,15 @@ see: https://stackoverflow.com/questions/3810348/setting-git-parent-pointer-to-a
 `rm -r .git/`
 
 ## Move a branch back by several commits
-git reset --hard HEAD~3
+`git reset --hard HEAD~3 # 3 is the number of commits to revert`
+Keep in mind that the commit files will get lost!
 
 see: https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git
+
+## Git delete branch
+`git branch -d the_local_branch`
+`git push origin --delete the_remote_branch` 
+see: https://makandracards.com/makandra/621-git-delete-a-branch-local-or-remote
+
+
+
