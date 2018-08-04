@@ -31,3 +31,11 @@ for current branch
 git rebase --onto <new-parent> <old-parent>
 
 see: https://stackoverflow.com/questions/3810348/setting-git-parent-pointer-to-a-different-parent
+
+## Remove git tracking from a folder
+`rm -r .git/`
+
+## Move a branch back by several commits
+git reset --hard HEAD~3
+
+see: https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git
